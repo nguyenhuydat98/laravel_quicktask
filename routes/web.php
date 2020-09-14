@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'localization'], function() {
+    Route::get('lang/{language}', 'LocalizationController@changeLanguage')->name('change-language');
+    Route::get('home', 'HomeController@index');
 });
