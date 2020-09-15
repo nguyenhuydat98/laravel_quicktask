@@ -1,4 +1,23 @@
 {
 	"english": "English",
-	"vietnamese": "Vietnamese"
+    "language": "Language",
+    "user.address": "Address",
+    "user.btn_save": "Save",
+    "user.create": "Create New",
+    "user.created_at": "Created At",
+    "user.delete": "Delete",
+    "user.edit": "Edit",
+    "user.email": "Email",
+    "user.id": "ID",
+    "user.name": "Name",
+    "user.phone": "Phone",
+    "user.popup.comfirm_delete": "Do you want to delete this user?",
+    "user.popup.no": "Back",
+    "user.popup.title_delete": "Delete User",
+    "user.popup.yes": "Delete",
+    "user.title_create": "Create New User",
+    "user.title_edit": "Edit User",
+    "user.title_list": "List User",
+    "user.updated_at": "Updated At",
+    "vietnamese": "Vietnamese"
 }

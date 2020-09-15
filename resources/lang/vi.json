@@ -1,4 +1,23 @@
 {
 	"english": "Tiếng Anh",
+    "language": "Ngôn ngữ",
+    "user.address": "Địa chỉ",
+    "user.btn_save": "Lưu",
+    "user.create": "Thêm mới",
+    "user.created_at": "Thời gian tạo",
+    "user.delete": "Xóa",
+    "user.edit": "Sửa",
+    "user.email": "Email",
+    "user.id": "Mã",
+    "user.name": "Tên",
+    "user.phone": "SĐT",
+    "user.popup.comfirm_delete": "Bạn muốn xóa người dùng này không?",
+    "user.popup.no": "Trở lại",
+    "user.popup.title_delete": "Xóa người dùng",
+    "user.popup.yes": "Xác nhận xóa",
+    "user.title_create": "Thêm Người Dùng Mới",
+    "user.title_edit": "Sửa Thông Tin Người Dùng",
+    "user.title_list": "Danh Sách Người Dùng",
+    "user.updated_at": "Thời gian sửa",
 	"vietnamese": "Tiếng Việt"
 }

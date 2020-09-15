@@ -16,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => 'localization'], function() {
     Route::get('lang/{language}', 'LocalizationController@changeLanguage')->name('change-language');
     Route::get('home', 'HomeController@index');
+    Route::resource('users', 'UserController')->except(['show']);
 });
