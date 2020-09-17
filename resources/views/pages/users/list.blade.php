@@ -13,6 +13,7 @@
                 <th>{{ trans('user.phone') }}</th>
                 <th>{{ trans('user.email') }}</th>
                 <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -28,7 +29,10 @@
                 <td>{{ $user->phone }}</td>
                 <td>{{ $user->email }}</td>
                 <td>
-                    <a href="{!! route('users.edit', [$user->id]) !!}" class="btn btn-primary">{{ trans('user.edit') }}</a>
+                    <a href="{{ route('products.list', [$user->id]) }}" class="btn btn-success">{{ trans('user.products') }}</a>
+                </td>
+                <td>
+                    <a href="{{ route('users.edit', [$user->id]) }}" class="btn btn-primary">{{ trans('user.edit') }}</a>
                     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete-{{ $user->id }}">{{ trans('user.delete') }}</button>
                     <div class="modal fade" id="delete-{{ $user->id }}" tabindex="-1" aria-labelledby="deleteModal" aria-hidden="true">
                         <div class="modal-dialog">

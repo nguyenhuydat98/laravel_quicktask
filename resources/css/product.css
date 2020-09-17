@@ -1,0 +1,8 @@
+.wrap-list-product-page .original-price {
+    text-decoration: line-through;
+}
+
+.wrap-list-product-page .img-product {
+    width: 150px;
+    height: 150px;
+}
