@@ -4,6 +4,9 @@ npm-debug.log
 yarn-error.log
 public/bower_components/*
 .bowerrc
+public/css
+public/js
+public/mix-manifest.json
 
 # Laravel 4 specific
 bootstrap/compiled.php
