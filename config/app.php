@@ -12,6 +12,8 @@ return [
         'product' => 10,
     ],
 
+    'link_image' => 'http://localhost:8000/storage/',
+
     /*
     |--------------------------------------------------------------------------
     | Application Name

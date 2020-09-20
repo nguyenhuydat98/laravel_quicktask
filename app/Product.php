@@ -17,6 +17,11 @@ class Product extends Model
 
     public $timestamps = true;
 
+    public function __construct()
+    {
+
+    }
+
     public function user()
     {
         return $this->belongsTo(User::class);
