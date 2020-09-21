@@ -17,6 +17,6 @@ Route::group(['middleware' => 'localization'], function() {
     Route::get('lang/{language}', 'LocalizationController@changeLanguage')->name('change-language');
     Route::get('home', 'HomeController@index');
     Route::resource('users', 'UserController')->except(['show']);
-    Route::resource('products', 'ProductController');
+    Route::resource('products', 'ProductController')->except(['index', 'show']);
     Route::get('list/{id}', 'ProductController@findByIdUser')->name('products.list');
 });
